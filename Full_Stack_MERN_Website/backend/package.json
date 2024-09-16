@@ -1,0 +1,19 @@
+{
+  "name": "musical-starter-backend",
+  "version": "2023",
+  "description": "Allow a user to rate a specific date's performance of a given show.",
+  "main": "musical-controller.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon musical-controller.mjs"
+  },
+  "author": "Michael Audi",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.1",
+    "rest": "^2.0.0",
+    "nodemon": "^3.0.1"
+  }
+}
